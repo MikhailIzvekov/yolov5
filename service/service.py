@@ -74,4 +74,4 @@ if __name__ == "__main__":
     # Get names and colors
     names = model.module.names if hasattr(model, 'module') else model.names
 
-    uvicorn.run(app, host="localhost", port=5000, log_level="info")
+    uvicorn.run(app, host="localhost", port=5001, log_level="info")
